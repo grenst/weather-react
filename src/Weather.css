@@ -1,0 +1,37 @@
+.Weather {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.Weather ul {
+  list-style-type: none;
+  padding: 0;
+}
+.Weather h2 {
+  font-size: 25px;
+  padding-top: 9px;
+  padding-left: 39px;
+}
+.form-control,
+.searchButton,
+.unitsButton {
+  height: 35px;
+  margin: 20px 0px;
+}
+.form-control {
+  box-shadow: 2px 4px 10px rgba(48, 48, 48, 0.5);
+}
+.searchButton {
+  border: none;
+  text-align: center;
+  width: 120px;
+  padding: 0, 0, 4px, 0;
+  border-radius: 5px;
+}
+
+.unitsButton {
+  border: none;
+  text-align: center;
+  width: 70px;
+  border-radius: 5px;
+}
