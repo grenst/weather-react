@@ -7,7 +7,12 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Einsiedeln" />
         <br />
-        <footer className="fixed-bottom my-1">Coded by Makarova Olena</footer>
+        <footer className="fixed-bottom my-1">
+          Coded by Makarova Olena
+          <span className="text-warning" herf="https://github.com/grenst/weather-react">
+            (GitHub source)
+          </span>
+        </footer>
       </div>
     </div>
   );

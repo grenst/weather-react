@@ -65,9 +65,6 @@ export default function WeatherInfo(props) {
             <li>
               <span className="textLeft">{props.data.clouds} %</span>
             </li>
-            <li>
-              <FormattedDate date={props.data.date} />
-            </li>
           </div>
         </div>
       </ul>
