@@ -4,3 +4,6 @@
 .WeatherForecast div .col-4 {
   padding-top: 20px;
 }
+.colorForecast {
+  color: rgb(180, 180, 180);
+}
