@@ -17,6 +17,7 @@
 .unitsButton {
   height: 35px;
   margin: 20px 0px;
+  transition: all 0.2s;
 }
 .form-control {
   box-shadow: 2px 4px 10px rgba(48, 48, 48, 0.5);
@@ -25,13 +26,14 @@
   border: none;
   text-align: center;
   width: 120px;
-  padding: 0, 0, 4px, 0;
+  padding: 0;
   border-radius: 5px;
 }
 
 .unitsButton {
   border: none;
   text-align: center;
-  width: 70px;
+  width: 75px;
   border-radius: 5px;
+  padding: 4px, 0, 0, 0;
 }

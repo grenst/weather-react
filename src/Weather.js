@@ -67,7 +67,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather border px-4">
-        <h1 className="pt-3">
+        <h1 className="pt-3 display-3">
           Weather <span className="text-warning">App</span>
         </h1>
         <form onSubmit={handleSubmit}>
